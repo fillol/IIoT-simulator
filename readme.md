@@ -1,3 +1,5 @@
+
+
 # Industrial IoT Simulator: Smart Factory 4.0
 
 ![Industry 4.0](https://img.shields.io/badge/-Industry%204.0-4CAF50?logo=industry&logoColor=FFFF00)
@@ -49,7 +51,7 @@ docker-compose stats
 ## 🏗️ Project Structure
 ```
 .
-├── compose.yml             # Defines 4 services: 3 lines + control center
+├── compose.yml             # Defines 5 services: 3 lines + control center + mosquitto
 ├── control-center/         # Central monitoring system
 │   ├── Dockerfile          # Image based on Python slim
 │   ├── main.py             # Real-time analysis logic
